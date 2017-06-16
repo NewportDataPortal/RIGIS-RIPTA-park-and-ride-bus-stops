@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Rhode Island Public Transit Authority (RIPTA)</origin>
+<pubdate>20160908</pubdate>
+<title>RIPTA Park and Ride Stops (September 2016); RIPTApkstops0916</title>
+<geoform>vector digital data</geoform>
+<pubinfo>
+<pubplace>Providence, RI</pubplace>
+<publish>RIPTA</publish>
+</pubinfo>
+<othercit>Suggested bibliographic reference: RIGIS, 2016. RIPTA Park and Ride Stops (September 2016); RIPTApkstops0916. Rhode Island Geographic Information System (RIGIS) Data Distribution System, URL: http://www.rigis.org, Environmental Data Center, University of Rhode Island, Kingston, Rhode Island (last date accessed: 9 September 2016).</othercit>
+<onlink>http://www.rigis.org</onlink>
+<onlink>http://www.ripta.com</onlink>
+<lworkcit>
+<citeinfo>
+<origin>Rhode Island Geographic Information System (RIGIS)</origin>
+<pubdate>1993</pubdate>
+<title>Rhode Island Geographic Information System (RIGIS) Data Distribution System</title>
+<onlink>http://www.rigis.org</onlink>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Rhode Island Public Transit Authority,  RIPTA, statewide park and ride lots designated as bus stops for public transit service with individual route  and stop information effective September 2016.</abstract>
+<purpose>Transportation and transit system planning.</purpose>
+<supplinf>It is not the intention when using this data set to  determine the exact routing, timing or scheduling of bus trips. Transit system routes and  schedules  including frequency of service change periodically.  Users of this data should check with RIPTA for the most up to data information and not rely on this data for final determinations. Please visit the RIPTA website for official bus stop and bus route information http://www.ripta.com.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>20160903</begdate>
+<enddate>20170113</enddate>
+</rngdates>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-71.833013</westbc>
+<eastbc>-71.185051</eastbc>
+<northbc>42.005965</northbc>
+<southbc>41.381108</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>transportation</themekey>
+</theme>
+<theme>
+<themekt>none</themekt>
+<themekey>transportation</themekey>
+<themekey>public transit</themekey>
+<themekey>bus</themekey>
+<themekey>ground transportation</themekey>
+<themekey>routes</themekey>
+<themekey>stops</themekey>
+<themekey>park and ride lots</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>USA</placekey>
+<placekey>Northeast</placekey>
+<placekey>New England</placekey>
+<placekey>Rhode Island</placekey>
+</place>
+</keywords>
+<accconst>None.</accconst>
+<useconst>
+This dataset is provided 'as is.’ The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset. Please acknowledge both RIGIS and the primary producer(s) of this dataset in any derived products. Versions of the RIGIS logo suitable for both printed and web-based products are available at http://www.rigis.org/logos.
+RIPTA bus stops, routes, and route number assignments may change with conditions and administrative or managment decisions made after the publication of these data.  Users are advised to check with RIPTA for verification
+</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Sheryl Cripps</cntper>
+<cntorg>Rhode Island Transit Authority</cntorg>
+</cntperp>
+<cntpos>Data Analyst</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>705 Elmwood Avenue</address>
+<city>Providence</city>
+<state>RI</state>
+<postal>02907</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>401 781-9400</cntvoice>
+<cntemail>scripps@ripta.com</cntemail>
+<hours>m-f 8-4</hours>
+</cntinfo>
+</ptcontac>
+<datacred>Rhode Island Public Transit Authority</datacred>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Verified by visual inspection of RIPTA schedules, determined to be approximately 99 percent accurate.</attraccr>
+</attracc>
+<logic>Basic complete ESRI point feature shape file</logic>
+<complete>Complete to the date of publication as verified by inspection with RIPTA</complete>
+<posacc>
+<horizpa>
+<horizpar>(none provided)</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>RIDOT</origin>
+<title>RIDOT Roads 2010</title>
+<serinfo>
+<sername>RIDOT Roads 2010</sername>
+<issue>2010</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Providence, RI</pubplace>
+<publish>RIDOT</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<srcscale>5000</srcscale>
+<typesrc>vector digital data</typesrc>
+<srccitea>RIGIS RIDOT Roads 2010</srccitea>
+<srccontr>Used as spatial base for roads by which bus stops were located.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>Road segments over which bus routes are located were selected from the RIGIS RIDOT 2010 roads data set and merged to form the spatial bust route data set using ESRI ArcView software.  Bus stop locations were manually positioned over digital road centerline features and/or located with field GPS techniques. Designated park and ride lots were selected from the overall bus stop data set.</procdesc>
+<procdate>20160209</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Sheryl Cripps</cntper>
+<cntorg>Rhode Island Public Transit Authority</cntorg>
+</cntperp>
+<cntpos>Data Analyst</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>705 Elmwood Avenue</address>
+<city>Providence</city>
+<state>RI</state>
+<postal>02907</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>401 781-9500 ext 221</cntvoice>
+<cntemail>scripps@ripta.com</cntemail>
+<hours>M-F 8-4</hours>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>Data contributed to RIGIS by RIPTA. Metadata were reviewed, minor corrections made to formatting and content, RIGIS distribution information updated.</procdesc>
+<procdate>20160909</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>University of Rhode Island Environmental Data Center</cntorg>
+<cntper>Erica Tefft</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>1 Greenhouse Road</address>
+<city>Kingston</city>
+<state>RI</state>
+<postal>02881</postal>
+</cntaddr>
+<cntvoice>401-874-5054</cntvoice>
+<cntemail>erica@edc.uri.edu</cntemail>
+<cntinst>email preferred</cntinst>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Entity point</sdtstype>
+<ptvctcnt>42</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>NAD 1983 StatePlane Rhode Island FIPS 3800 Feet</mapprojn>
+<transmer>
+<sfctrmer>0.99999375</sfctrmer>
+<longcm>-71.5</longcm>
+<latprjo>41.08333333333334</latprjo>
+<feast>328083.3333333333</feast>
+<fnorth>0.0</fnorth>
+</transmer>
+</mapproj>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.00000000003195086214269339</absres>
+<ordres>0.00000000003195086214269339</ordres>
+</coordrep>
+<plandu>foot_us</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>D North American 1983</horizdn>
+<ellips>GRS 1980</ellips>
+<semiaxis>6378137.0</semiaxis>
+<denflat>298.257222101</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>RIPTApkstops0116</enttypl>
+</enttyp>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>RIPTA_ID</attrlabl>
+<attrdef>Unique identifier.</attrdef>
+<attrdefs>RIPTA</attrdefs>
+</attr>
+<attr>
+<attrlabl>ROUTE</attrlabl>
+<attrdef>Route number along which stop occurs.</attrdef>
+<attrdefs>RIPTA</attrdefs>
+</attr>
+<attr>
+<attrlabl>TOWN</attrlabl>
+<attrdef>Town in which stop is located.</attrdef>
+<attrdefs>RIPTA</attrdefs>
+</attr>
+<attr>
+<attrlabl>LOCATION</attrlabl>
+<attrdef>Description of stop location; may include landmarks or road names.</attrdef>
+<attrdefs>RIPTA</attrdefs>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>University of Rhode Island Environmental Data Center</cntorg>
+<cntper>Erica Tefft</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>1 Greenhouse Road</address>
+<city>Kingston</city>
+<state>RI</state>
+<postal>02881</postal>
+</cntaddr>
+<cntvoice>401-874-5054</cntvoice>
+<cntemail>erica@edc.uri.edu</cntemail>
+<cntinst>email preferred</cntinst>
+</cntinfo>
+</distrib>
+<distliab>This dataset is provided 'as is.'  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>Esri shapefile</formname>
+<filedec>ZIP</filedec>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://www.rigis.org</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>No fee for downloading directly from the RIGIS Data Distribution System located at http://www.rigis.org.</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>201600909</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>RIPTA</cntorg>
+<cntper>Sheryl Cripps</cntper>
+</cntorgp>
+<cntpos>Data Analyst</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>705 Elmwood Avenue</address>
+<city>Providence</city>
+<state>RI</state>
+<postal>02907</postal>
+</cntaddr>
+<cntvoice>401-784-9500 x 221</cntvoice>
+<cntfax>401-784-9523</cntfax>
+<cntemail>scripps@ripta.com</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+</metainfo>
+</metadata>
